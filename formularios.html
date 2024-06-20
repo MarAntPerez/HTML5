@@ -91,7 +91,57 @@
                 Rango: 
                 <input type="range" name="rango"/>
             </div>
+
+            <div>
+                Buscar:
+                <input type="search" name="buscar"/>
+                <button>Buscar</button>
+            </div>
+
+            <div>
+                Telefono:
+                <input type="tel" name="telefono"/>
+            </div>
+
+            <div>
+                Time: 
+                <input type="time"/>
+            </div>
+
+            <div>
+                Mes:
+                <input type="month"/>
+            </div>
+
+            <div>
+                Sitio Web: 
+                <input type="url"/>
+            </div>
+
+            <div>
+                Barra de progreso: 
+                <progress min="1" max="100" value="56"></progress>
+            </div>
+
+            <div>
+                Meter: 
+                <meter max="100" value="45"></meter>
+            </div>
+
+            <div>
+                List:
+                <input list="frutas" name="fruta"/>
+                <datalist id="frutas">
+                    <option value="manzana"></option>
+                    <option value="naranja"></option>
+                    <option value="cereza"></option>
+                    <option value="sandia"></option>
+                    <option value="pera"></option>
+                </datalist>
+            </div>
         </fieldset>
+
+        <input type="reset" value="Limpiar formulario"/>
 
         <input type="submit" value="Enviar formulario"/>
     </form>
