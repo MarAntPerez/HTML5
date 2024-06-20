@@ -1,0 +1,53 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Tablas HTML5</title>
+    </head>
+    <body>
+        <h1>Tablas</h1>
+        <table border="1" summary="Peliculas Favoriras">
+            <thead>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Genero</th>
+                    <th>Año</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>El señor de los anillos</td>
+                    <td>Aventura</td>
+                    <td>2004</td>
+                </tr>
+                <tr>
+                    <td>Joker</td>
+                    <td>Drama</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Batman vs Superman</td>
+                    <td colspan="2" rowspan="2">Superheroes</td> <!--colspan: ampliar columnas--> <!--rowspan: ampliar filas-->
+                </tr>
+                <tr>
+                    <td>Avengers: Infinity War</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <td colspan="3" rowspan="2">
+                    Pie de tabla
+                </td>
+            </tfoot>
+        </table>
+
+        <!--Los elemntos en bloque ocupan el ancho de la pagina a diferencia de los elementos en linea-->
+        <h2>Bloque y en linea.</h2>
+        <h3>Elementos en linea</h3>
+        <a>Elemento 1</a> <a>Elemento 2</a>
+        <h3>Elementos en bloque</h3>
+        <div>Elemento 3</div> <div>Elemento 4</div>
+
+    </body>
+</html>
