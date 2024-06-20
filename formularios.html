@@ -26,12 +26,70 @@
 
             <div>
                 Contraseña: 
-                <input type="text">
+                <input type="password">
             </div>
 
             <div>
                 Radio:
-                <input />
+                <input type="radio" name="genero" id="hombre" value="hombre"/>
+                <label for="genero">Hombre</label>
+                <input type="radio" name="genero" id="mujer" value="mujer"/>
+                <label for="genero">Mujer</label>
+            </div>
+
+            <div>
+                Select:
+                <select>
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div>
+                Checkbox:
+                <label>
+                    <input type="checkbox"/> Mayor de edad
+                </label>
+
+                <label>
+                    <input type="checkbox"/> Menor de edad
+                </label>
+            </div>
+
+            <div>
+                Color:
+                <input type="color"/>
+            </div>
+
+            <div>
+                Fecha:
+                <input type="date"/>
+            </div>
+
+            <div>
+                Ficheros:
+                <input type="file"/>
+            </div>
+
+            <div>
+                Imagen:
+                <input type="image" src="imagenes/13082cebf4e59cdc434444c7856f72ea.jpg" height="100px"/>
+            </div>
+
+            <div>
+                Oculto: 
+                <input type="hidden" name="oculto" value="No existe"/>
+            </div>
+
+            <div>
+                Numero: 
+                <input type="number"/>
+            </div>
+
+            <div>
+                Rango: 
+                <input type="range" name="rango"/>
             </div>
         </fieldset>
 
